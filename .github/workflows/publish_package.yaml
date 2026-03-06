@@ -1,0 +1,12 @@
+name: Publish private GenAI-utils package 
+
+on: 
+  workflow_dispatch:
+  
+jobs:
+  publish-package:
+    runs-on: ubuntu-latest 
+
+    steps:
+      - name: greeting
+        uses: echo "Hello, this workflow will publish the GenAI-utils package to the private registry. Please make sure you have the necessary permissions and credentials set up before proceeding."
