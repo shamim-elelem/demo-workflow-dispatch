@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - name: greeting
-        uses: echo "Hello, this workflow will publish the GenAI-utils package to the private registry. Please make sure you have the necessary permissions and credentials set up before proceeding."
+        run: echo "Hello, this workflow will publish the GenAI-utils package to the private registry. Please make sure you have the necessary permissions and credentials set up before proceeding."
