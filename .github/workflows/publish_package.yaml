@@ -2,6 +2,11 @@ name: Publish private GenAI-utils package
 
 on: 
   workflow_dispatch:
+    inputs:
+      tag_name:
+        description: "Package version that you want to release."
+        required: false 
+        type: string
   
 jobs:
   publish-package:
